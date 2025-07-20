@@ -56,11 +56,11 @@ Tool / LibraryPurposePythonCore programming languagepandas, numpyData preprocess
 🌐 You can test the full system (with all three models + category search) at the link below:
 👉 Try the system live on Hugging Face
 Enter a full name such as:
-James Smith
-Mary Johnson
-Michael Brown
-Emily Davis
-Robert Miller
+James Smith /
+Mary Johnson /
+Michael Brown /
+Emily Davis /
+Robert Miller /
 Or search with categories like:
 "bakery", "pizza", "vegan", "cafe"
 
