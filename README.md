@@ -59,11 +59,13 @@ Allows users to manually enter a category like "pizza" or "sushi"
 Returns the top 5 highest-rated restaurants matching the keyword
 
 💻 Technologies Used
+
 Tool / LibraryPurposePythonCore programming languagepandas, numpyData preprocessing and handlingscikit-learnTF-IDF vectorizer & normalizationsurpriseCollaborative Filtering (SVD)GradioInteractive UI for the userHugging Face SpacesPublic deployment
 
-🔗 Live Demo
-🌐 You can test the full system (with all three models + category search) at the link below:
-👉 Try the system live on Hugging Face
+🌐 You can test the full system (with all three models + category search) at the link below
+
+🔗 Live Demo: https://huggingface.co/spaces/mirhanmetin/Personalized_Restaurant_Recommendation_System
+
 Enter a full name such as:
 James Smith /
 Mary Johnson /
@@ -74,9 +76,9 @@ Or search with categories like:
 "bakery", "pizza", "vegan", "cafe"
 
 👥 Team Members
-Sadi Akdemir
+Sadi Akdemir:
 Data preprocessing, content-based filtering, Gradio/Hugging Face integration, documentation
-Yusuf Mirhan Metin
+Yusuf Mirhan Metin:
 Collaborative filtering, hybrid scoring logic, UI optimization, evaluation metrics
 
 📈 Evaluation & Observations
