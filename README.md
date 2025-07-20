@@ -67,35 +67,55 @@ Tool / LibraryPurposePythonCore programming languagepandas, numpyData preprocess
 🔗 Live Demo: https://huggingface.co/spaces/mirhanmetin/Personalized_Restaurant_Recommendation_System
 
 Enter a full name such as:
+
 James Smith /
 Mary Johnson /
 Michael Brown /
 Emily Davis /
 Robert Miller /
+
 Or search with categories like:
+
 "bakery", "pizza", "vegan", "cafe"
 
 👥 Team Members
+
 Sadi Akdemir:
+
 Data preprocessing, content-based filtering, Gradio/Hugging Face integration, documentation
+
 Yusuf Mirhan Metin:
+
 Collaborative filtering, hybrid scoring logic, UI optimization, evaluation metrics
 
 📈 Evaluation & Observations
+
 CF performance was measured using RMSE and MAE from 5-fold cross-validation
+
 CBF and Hybrid results were evaluated through user feedback and test runs
+
 The Hybrid model consistently outperformed single models in balancing relevance and novelty
 
 🎓 Conclusion
+
 This project demonstrates how intelligent recommendation systems can improve user decision-making in crowded domains like food and hospitality.
+
 ✅ CBF brings personalization through familiarity
+
 ✅ CF discovers hidden gems by learning from others
+
 ✅ Hybrid offers the best of both worlds
+
 ✅ Category search helps with direct exploration
+
 We developed a fully-functional, interactive system accessible to everyone via Hugging Face Spaces.
 
 🔗 Resources
-Yelp Open Dataset
-Surprise Library for Recommender Systems
-Gradio Docs
-Hugging Face Spaces
+
+-Yelp Open Dataset
+
+-Surprise Library for Recommender Systems
+
+-Gradio Docs
+
+-Hugging Face Spaces
