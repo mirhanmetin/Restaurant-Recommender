@@ -1,3 +1,5 @@
+Medium Blog: https://medium.com/@sadi.akdemir/%EF%B8%8F-personalized-restaurant-recommendation-system-78a825dc970a
+
 🍽️ Personalized Restaurant Recommendation System — Sadi Akdemir & Yusuf Mirhan Metin
 
 In a world overwhelmed by choices, users often spend too much time deciding where to eat, drink, or shop. This project introduces a Personalized Restaurant Recommendation System designed to reduce decision fatigue by offering tailored suggestions based on user preferences, similar user behavior, and food category interest.
