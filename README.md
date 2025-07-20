@@ -16,14 +16,23 @@ And the combination of all above (hybrid model)
 📊 Dataset Information
 
 Source: Yelp Open Dataset
+
 Data Preprocessing:
-Businesses filtered by category "Restaurant"
-Irrelevant columns dropped and null values handled
-Review set reduced to the top 1,000 most active users for performance
-Each user was assigned a random American-style full name
-Numerical attributes normalized (stars, review_count)
-Textual category data encoded using TF-IDF
+
+-Businesses filtered by category "Restaurant"
+
+-Irrelevant columns dropped and null values handled
+
+-Review set reduced to the top 1,000 most active users for performance
+
+-Each user was assigned a random American-style full name
+
+-Numerical attributes normalized (stars, review_count)
+
+-Textual category data encoded using TF-IDF
+
 Processed Files Used:
+
 File NameDescriptioncleaned_restaurants.csvRestaurant info (name, categories, rating)review_top_1000_users_named_cleaned.jsonReviews by top 1000 users with usernames
 
 🧪 Recommendation Techniques Used
