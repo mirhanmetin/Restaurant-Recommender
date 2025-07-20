@@ -7,11 +7,16 @@ In a world overwhelmed by choices, users often spend too much time deciding wher
 🧠 Problem Definition
 
 Main challenge: Users waste time searching for suitable restaurants among thousands of options.
+
 Goal: Deliver accurate and personalized restaurant suggestions based on:
-Similar restaurants to a user’s highly-rated restaurants (content-based filtering)
-Similar users’ preferences (collaborative filtering)
-Category-based search (manual input)
-And the combination of all above (hybrid model)
+
+-Similar restaurants to a user’s highly-rated restaurants (content-based filtering)
+
+-Similar users’ preferences (collaborative filtering)
+
+-Category-based search (manual input)
+
+-And the combination of all above (hybrid model)
 
 📊 Dataset Information
 
