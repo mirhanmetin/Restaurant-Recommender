@@ -1,0 +1,8 @@
+gradio
+pandas
+scikit-learn
+scipy
+scikit-surprise
+numpy==1.23.5
+tabulate
+matplotlib
