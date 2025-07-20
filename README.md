@@ -44,24 +44,36 @@ File NameDescriptioncleaned_restaurants.csvRestaurant info (name, categories, ra
 We implemented three recommendation approaches and an extra search function:
 
 1. 📘 Content-Based Filtering (CBF)
-Recommends restaurants similar to those the user liked before
-Based on restaurant categories + ratings/review counts
-Categories vectorized using TF-IDF
-Cosine similarity used to find closeness between vectors
+
+-Recommends restaurants similar to those the user liked before
+
+-Based on restaurant categories + ratings/review counts
+
+-Categories vectorized using TF-IDF
+
+-Cosine similarity used to find closeness between vectors
 
 2. 👥 Collaborative Filtering (CF)
-Uses SVD matrix factorization from the surprise library
-Learns from ratings by similar users to predict preferences
-User–item interaction matrix built from rating data
+
+-Uses SVD matrix factorization from the surprise library
+
+-Learns from ratings by similar users to predict preferences
+
+-User–item interaction matrix built from rating data
 
 3. 🧠 Hybrid Model
-Weighted combination of CF and CBF scores:
-Hybrid Score = 0.5 CF Score + 0.5 CBF Score
-Offers better performance in sparse data situations and cold-start mitigation
+
+-Weighted combination of CF and CBF scores:
+
+-Hybrid Score = 0.5 CF Score + 0.5 CBF Score
+
+-Offers better performance in sparse data situations and cold-start mitigation
 
 4. 🔍 Category Search Feature
-Allows users to manually enter a category like "pizza" or "sushi"
-Returns the top 5 highest-rated restaurants matching the keyword
+
+-Allows users to manually enter a category like "pizza" or "sushi"
+
+-Returns the top 5 highest-rated restaurants matching the keyword
 
 💻 Technologies Used
 
